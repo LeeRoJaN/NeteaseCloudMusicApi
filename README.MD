@@ -19,81 +19,175 @@
 [sqaiyan/netmusic-node](https://github.com/sqaiyan/netmusic-node)
 
 ## 功能特性
-
 1. 登录
 2. 刷新登录
-3. 获取用户信息 , 歌单，收藏，mv, dj 数量
-4. 获取用户歌单
-5. 获取用户电台
-6. 获取用户关注列表
-7. 获取用户粉丝列表
-8. 获取用户动态
-9. 获取用户播放记录
-10. 获取精品歌单
-11. 获取歌单详情
-12. 搜索
-13. 搜索建议
-14. 获取歌词
-15. 歌曲评论
-16. 收藏单曲到歌单
-17. 专辑评论
-18. 歌单评论
-19. mv 评论
-20. 电台节目评论
-21. banner
-22. 获取歌曲详情
-23. 获取专辑内容
-24. 获取歌手单曲
-25. 获取歌手 mv
-26. 获取歌手专辑
-27. 获取歌手描述
-28. 获取相似歌手
-29. 获取相似歌单
-30. 相似 mv
-31. 获取相似音乐
-32. 获取最近 5 个听了这首歌的用户
-33. 获取每日推荐歌单
-34. 获取每日推荐歌曲
-35. 私人 FM
-36. 签到
-37. 喜欢音乐
-38. 垃圾桶
-39. 歌单 ( 网友精选碟 )
-40. 新碟上架
-41. 热门歌手
-42. 最新 mv
-43. 推荐 mv
-44. 推荐歌单
-45. 推荐新音乐
-46. 推荐电台
-47. 推荐节目
-48. 独家放送
-49. mv 排行
-50. 获取 mv 数据
-51. 播放 mv
-52. 排行榜
-53. 歌手榜
-54. 云盘
-55. 电台 - 推荐
-56. 电台 - 分类
-57. 电台 - 分类推荐
-58. 电台 - 订阅
-59. 电台 - 详情
-60. 电台 - 节目
-61. 给评论点赞
-62. 获取动态
-63. 获取热搜
-64. 发送私信
-65. 发送私信歌单
-66. 新建歌单
-67. 收藏/取消收藏歌单
-68. 歌单分类
-69. 收藏的歌手列表
-70. 订阅的电台列表
+3. 发送验证码
+4. 校验验证码
+5. 注册(修改密码)
+6. 获取用户信息 , 歌单，收藏，mv, dj 数量
+7. 获取用户歌单
+8. 获取用户电台
+9. 获取用户关注列表
+10. 获取用户粉丝列表
+11. 获取用户动态
+12. 获取用户播放记录
+13. 获取精品歌单
+14. 获取歌单详情
+15. 搜索
+16. 搜索建议
+17. 获取歌词
+18. 歌曲评论
+19. 收藏单曲到歌单
+20. 专辑评论
+21. 歌单评论
+22. mv 评论
+23. 电台节目评论
+24. banner
+25. 获取歌曲详情
+26. 获取专辑内容
+27. 获取歌手单曲
+28. 获取歌手 mv
+29. 获取歌手专辑
+30. 获取歌手描述
+31. 获取相似歌手
+32. 获取相似歌单
+33. 相似 mv
+34. 获取相似音乐
+35. 获取最近 5 个听了这首歌的用户
+36. 获取每日推荐歌单
+37. 获取每日推荐歌曲
+38. 私人 FM
+39. 签到
+40. 喜欢音乐
+41. 垃圾桶
+42. 歌单 ( 网友精选碟 )
+43. 新碟上架
+44. 热门歌手
+45. 最新 mv
+46. 推荐 mv
+47. 推荐歌单
+48. 推荐新音乐
+49. 推荐电台
+50. 推荐节目
+51. 独家放送
+52. mv 排行
+53. 获取 mv 数据
+54. 播放 mv/视频
+55. 排行榜
+56. 歌手榜
+57. 云盘
+58. 电台 - 推荐
+59. 电台 - 分类
+60. 电台 - 分类推荐
+61. 电台 - 订阅
+62. 电台 - 详情
+63. 电台 - 节目
+64. 给评论点赞
+65. 获取动态
+66. 热搜列表(简略)
+67. 发送私信
+68. 发送私信歌单
+69. 新建歌单
+70. 收藏/取消收藏歌单
+71. 歌单分类
+72. 收藏的歌手列表
+73. 订阅的电台列表
+74. 相关歌单推荐
+75. 付费精选接口
+76. 音乐是否可用检查接口
+77. 登录状态
+78. 获取视频播放地址
+79. 发送/删除评论
+80. 热门评论
+81. 视频评论
+82. 退出登录
+83. 所有榜单
+84. 所有榜单内容摘要
+85. 收藏视频
+86. 收藏 MV
+87. 视频详情
+88. 相关视频
+89. 关注用户
+90. 新歌速递
+91. 喜欢音乐列表(无序)
+92. 收藏的 MV 列表
+93. 获取最新专辑
+94. 听歌打卡
+95. 获取视频标签/分类下的视频
+96. 已收藏专辑列表
+97. 获取动态评论
+98. 歌单收藏者列表
+99. 云盘歌曲删除
+100. 热门话题
+101. 电台 - 推荐类型
+102. 电台 - 非热门类型
+103. 电台 - 今日优选
+104. 心动模式/智能播放
+105. 转发动态
+106. 删除动态
+107. 分享歌曲、歌单、mv、电台、电台节目到动态
+108. 通知-私信
+109. 通知-评论
+110. 通知-@我
+111. 通知-通知
+112. 设置
+113. 云盘数据详情
+114. 私信内容
+115. 我的数字专辑
+116. batch批量请求接口
+117. 获取视频标签列表
+118. 全部mv
+119. 网易出品mv
+120. 收藏/取消收藏专辑
+121. 专辑动态信息
+122. 热搜列表(详细)
+123. 更换绑定手机
+124. 检测手机号码是否已注册
+125. 初始化昵称
+126. 更新歌单描述
+127. 更新歌单名
+128. 更新歌单标签
+129. 默认搜索关键词
+130. 删除歌单
+131. 电台banner
+132. 用户电台
+133. 热门电台
+134. 电台 - 节目详情
+135. 电台 - 节目榜
+136. 电台 - 新晋电台榜/热门电台榜
+137. 类别热门电台
+138. 云村热评
+139. 电台24小时节目榜
+140. 电台24小时主播榜
+141. 电台最热主播榜
+142. 电台主播新人榜
+143. 电台付费精品榜
+144. 歌手热门50首歌曲
+145. 购买数字专辑
+146. 获取 mv 点赞转发评论数数据
+147. 获取视频点赞转发评论数数据
+148. 调整歌单顺序
+149. 调整歌曲顺序
+150. 独家放送列表
+151. 获取推荐视频
+152. 获取视频分类列表 
+153. 获取全部视频列表接口
+154. 获取历史日推可用日期列表
+155. 获取历史日推详细数据
+156. 国家编码列表
+157. 首页-发现
+158. 首页-发现-圆形图标入口列表
+159. 数字专辑-全部新碟
+160. 数字专辑-热门新碟
+161. 数字专辑&数字单曲-榜单
+162. 数字专辑-语种风格馆
+163. 数字专辑详情
+164. 更新头像
+165. 歌单封面上传
 
 ## 环境要求
 
-需要 NodeJS 6.0+ 环境
+需要 NodeJS 8.12+ 环境
 
 ## 安装
 
@@ -120,10 +214,11 @@ windows 下使用 git-bash 或者 cmder 等终端执行以下命令:
 $ set PORT=4000 && node app.js
 ```
 
-
 ## 使用文档
 
-[文档地址](https://binaryify.github.io/NeteaseCloudMusicApi)
+[文档地址](https://binaryify.github.io/NeteaseCloudMusicApi) 
+
+[文档地址2](https://neteasecloudmusicapi.vercel.app)
 
 ![文档](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/docs.png)
 
@@ -140,16 +235,10 @@ $ npm test
 ![单元测试](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/screenshot1.png)
 ![单元测试](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/screenshot2.png)
 
-
 ## 贡献者
-
-[<img alt="nujhong" src="https://avatars1.githubusercontent.com/u/23186058?v=4&s=117" width="117">](https://github.com/nujhong)[<img alt="zhangzhengyi12" src="https://avatars1.githubusercontent.com/u/23502338?v=4&s=117" width="117">](https://github.com/zhangzhengyi12)[<img alt="mchome" src="https://avatars1.githubusercontent.com/u/7392658?v=4&s=117" width="117">](https://github.com/mchome)[<img alt="pengx17" src="https://avatars1.githubusercontent.com/u/584378?v=4&s=117" width="117">](https://github.com/pengx17)[<img alt="LengYXin" src="https://avatars1.githubusercontent.com/u/19631404?v=4&s=117" width="117">](https://github.com/LengYXin)[<img alt="rccoder" src="https://avatars3.githubusercontent.com/u/7554325?v=4&s=117" width="117">](https://github.com/rccoder)
-
-[<img alt="zhixuanziben" src="https://avatars0.githubusercontent.com/u/18346513?v=4&s=117" width="117">](https://github.com/zhixuanziben)[<img alt="LightStrawberry" src="https://avatars3.githubusercontent.com/u/5920513?v=4&s=117" width="117">](https://github.com/LightStrawberry)[<img alt="CeBkCn" src="https://avatars3.githubusercontent.com/u/14861605?v=4&s=117" width="117">](https://github.com/CeBkCn)[<img alt="nondanee" src="https://avatars0.githubusercontent.com/u/26399680?v=4&s=117" width="117">](https://github.com/nondanee)[<img alt="twesix" src="https://avatars1.githubusercontent.com/u/16174733?v=4&s=117" width="117">](https://github.com/twesix)
+![](https://opencollective.com/NeteaseCloudMusicApi/contributors.svg?width=890)
 
 
 ## License
 
 [The MIT License (MIT)](https://github.com/Binaryify/NeteaseCloudMusicApi/blob/master/LICENSE)
-
-
